@@ -1,0 +1,62 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Bolts (1.9.1):
+    - Bolts/AppLinks (= 1.9.1)
+    - Bolts/Tasks (= 1.9.1)
+  - Bolts/AppLinks (1.9.1):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.1)
+  - FBSDKCoreKit (4.44.1):
+    - Bolts (~> 1.9)
+  - Flutter (1.0.0)
+  - flutter_integrate_module (0.0.1):
+    - Flutter
+  - FlutterPluginRegistrant (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - AFNetworking (~> 3.0)
+  - FBSDKCoreKit (~> 4.9)
+  - Flutter (from `../flutter_integrate_module/.ios/Flutter/engine`)
+  - flutter_integrate_module (from `../flutter_integrate_module/.ios/Flutter`)
+  - FlutterPluginRegistrant (from `../flutter_integrate_module/.ios/Flutter/FlutterPluginRegistrant`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
+    - Bolts
+    - FBSDKCoreKit
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: "../flutter_integrate_module/.ios/Flutter/engine"
+  flutter_integrate_module:
+    :path: "../flutter_integrate_module/.ios/Flutter"
+  FlutterPluginRegistrant:
+    :path: "../flutter_integrate_module/.ios/Flutter/FlutterPluginRegistrant"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
+  Flutter: ac41d61a47ae5bf8195a5598d2d63754888ec0d5
+  flutter_integrate_module: c099bdcaee449db235a8d2bf25c2a2574e661ca6
+  FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
+
+PODFILE CHECKSUM: 15e8d66543a2e053029239e3cefb9b33b06a1fb1
+
+COCOAPODS: 1.10.1

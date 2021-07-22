@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.hcchiang.flutterintegrationtest.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_nav_home" >
+        <action
+            android:id="@+id/action_home_to_flutter"
+            app:destination="@id/flutter_page" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/flutter_page"
+        android:name="com.hcchiang.flutterintegrationtest.ui.flutter.AndroidFlutterFragment"
+        android:label="Flutter Module"
+        tools:layout="@layout/fragment_flutter_screen">
+        <action
+            android:id="@+id/action_flutter_to_home"
+            app:destination="@id/navigation_home" />
+        <action
+            android:id="@+id/action_flutter_to_member"
+            app:destination="@id/member_page" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/member_page"
+        android:name="com.hcchiang.flutterintegrationtest.ui.member.MemberFunctionFragment"
+        android:label="Member Function"
+        tools:layout="@layout/fragment_member_function">
+        <action
+            android:id="@+id/action_member_to_flutter"
+            app:destination="@id/flutter_page" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.hcchiang.flutterintegrationtest.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_nav_dashboard" >
+        <action
+            android:id="@+id/action_dashboard_to_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.hcchiang.flutterintegrationtest.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_nav_notifications">
+        <action
+            android:id="@+id/action_notify_to_home"
+            app:destination="@id/navigation_home" />
+    </fragment>
+</navigation>

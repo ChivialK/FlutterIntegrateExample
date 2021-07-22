@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.IntegrationTest" parent="Theme.Base.NoActionBar">
+        <item name="backgroundColor">@color/color_primary_background_dark</item>
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/color_primary_dark</item>
+        <item name="colorPrimaryVariant">@color/color_primary_background_dark</item>
+        <item name="colorOnPrimary">@color/color_text_primary_dark</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/color_secondary_background_dark</item>
+        <item name="colorSecondaryVariant">@color/color_accent_dark</item>
+        <item name="colorOnSecondary">@color/color_text_secondary_dark</item>
+        <!-- Text color. -->
+        <item name="android:textColor">@color/color_text_primary_dark</item>
+        <item name="android:textColorPrimary">@color/color_text_primary_dark</item>
+        <item name="android:textColorHint">@color/color_text_hint_dark</item>
+        <item name="android:textColorLink">@color/color_text_link_dark</item>
+        <item name="android:textSize">@dimen/text_size_normal_16sp</item>
+        <!-- Navigation color. -->
+        <item name="colorControlNormal">@color/color_text_primary_dark</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimary</item>
+        <!-- Button color. -->
+        <item name="materialButtonStyle">@style/ButtonTextColor.Dark</item>
+        <!-- Image color. -->
+        <item name="drawableTint">@color/white_700</item>
+        <item name="iconTint">@color/white_800</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonTextColor.Dark" parent="Widget.MaterialComponents.Button">
+        <item name="colorPrimary">?attr/colorPrimary</item>
+        <item name="colorOnPrimary">@color/color_text_primary_dark</item>
+        <item name="android:textColor">@color/color_text_primary_dark</item>
+    </style>
+</resources>

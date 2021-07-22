@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_800">#EEEEEE</color>
+    <color name="white_700">#B3ffffff</color>
+
+    <!-- Light Theme colors -->
+    <color name="color_primary">#0EB2FB</color>
+    <color name="color_primary_background">#FFFFFF</color>
+    <color name="color_secondary_background">#585858</color>
+    <color name="color_text_primary">#222222</color>
+    <color name="color_text_secondary">#303030</color>
+    <color name="color_text_hint">#808080</color>
+    <color name="color_accent">#2196F3</color>
+    <color name="color_bubble">#64B5F6</color>
+
+    <!-- Dark Theme colors -->
+    <color name="color_primary_dark">#1E3845</color>
+    <color name="color_primary_background_dark">#313131</color>
+    <color name="color_secondary_background_dark">#424242</color>
+    <color name="color_text_primary_dark">#FFFFFF</color>
+    <color name="color_text_secondary_dark">#C7C7C7</color>
+    <color name="color_text_hint_dark">#A8A8A8</color>
+    <color name="color_accent_dark">#186E89</color>
+    <color name="color_bubble_dark">#1E3845</color>
+
+    <!-- Common colors -->
+    <color name="color_background_menu">#334A56</color>
+    <color name="color_text_light_red">#FC6464</color>
+    <color name="color_text_highlight">#298CBA</color>
+    <color name="color_text_highlight_dark">#2BC7A3</color>
+    <color name="color_text_link">#FFEE58</color>
+    <color name="color_text_link_dark">#F19B1B</color>
+    <color name="color_fab_background">#C0808080</color>
+</resources>

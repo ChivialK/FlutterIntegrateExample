@@ -1,0 +1,19 @@
+<resources>
+    <dimen name="text_size_header_24sp">24sp</dimen>
+    <dimen name="text_size_title_20sp">20sp</dimen>
+    <dimen name="text_size_subtitle_18sp">18sp</dimen>
+    <dimen name="text_size_normal_16sp">16sp</dimen>
+    <dimen name="text_size_hint_14sp">14sp</dimen>
+    <dimen name="text_size_small_12sp">12sp</dimen>
+
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_12dp">12dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
+    <dimen name="margin_24dp">24dp</dimen>
+    <dimen name="margin_32dp">32dp</dimen>
+
+    <dimen name="center_btn_margin_hor_48dp">48dp</dimen>
+    <dimen name="video_view_height">240dp</dimen>
+    <dimen name="margin_4dp">4dp</dimen>
+    <dimen name="icon_button_size">48dp</dimen>
+</resources>
