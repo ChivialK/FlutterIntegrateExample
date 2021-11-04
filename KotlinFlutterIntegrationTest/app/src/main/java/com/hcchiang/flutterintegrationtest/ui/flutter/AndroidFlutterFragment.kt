@@ -70,13 +70,36 @@ class AndroidFlutterFragment : Fragment(), IFlutterChannelListener {
 
         if (flutterFragment == null) {
             // Create Fragment with new engine (need to setup FlutterIntegrateChannel)
-//            val newFlutterFragment = FlutterFragment.createDefault()
+//            val newEngineFlutterFragment = FlutterFragment.createDefault()
+
+            // Change initial route
+//            val newEngineFlutterFragment = FlutterFragment
+//                .withNewEngine()
+//                .initialRoute("one_page")
+//                .build<FlutterFragment>()
+
+            // Change flutter entry
+//            val newEngineFlutterFragment = FlutterFragment
+//                .withNewEngine()
+//                .dartEntrypoint("newMain") // default is main.dart
+//                .build<FlutterFragment>()
+
+            // Setup FlutterIntegrateChannels
+//            newEngineFlutterFragment.flutterEngine!!.run {
+//                // Setup Channels between native and flutter
+//                FlutterIntegrateMethodChannel.setup(dartExecutor.binaryMessenger)
+//                FlutterIntegrateBasicChannel.setup(dartExecutor.binaryMessenger)
+//                FlutterIntegrateEventChannel.setup(dartExecutor.binaryMessenger)
+//            }
 
             // Create Fragment with cached engine
             val newFlutterFragment = FlutterFragment
                 .withCachedEngine(FlutterIntegrateApp.FLUTTER_ENGINE_ID)
                 .shouldAttachEngineToActivity(true)
                 .build() as FlutterFragment
+
+            // Change route (not tested)
+//            newFlutterFragment.flutterEngine?.navigationChannel?.setInitialRoute("new_route")
 
             flutterFragment = newFlutterFragment
             childFragmentManager.beginTransaction()

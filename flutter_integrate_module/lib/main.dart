@@ -44,7 +44,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  String _native = '來自Android的訊息';
+  String _native = '來自MethodChannel的訊息';
   int _counter = 0;
 
   void _incrementCounter() {
@@ -65,8 +65,7 @@ class _MyHomePageState extends State<MyHomePage> {
       debugPrint('received message from native: $msg');
       debugPrint('flutter will return message: $returnMsg');
       if (canPop) {
-        Future.delayed(
-            Duration(milliseconds: 2000), () => context.router.pop());
+        Future.delayed(Duration(milliseconds: 100), () => context.router.pop());
       } else {
         ChannelUtil.sendAsMethod(returnMsg);
         // return null to dispose message handler

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flutter_integrate_module.iml" filepath="$PROJECT_DIR$/flutter_integrate_module.iml" />
-      <module fileurl="file://$PROJECT_DIR$/flutter_integrate_module_android.iml" filepath="$PROJECT_DIR$/flutter_integrate_module_android.iml" />
     </modules>
   </component>
 </project>

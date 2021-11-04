@@ -57,7 +57,7 @@ class FlutterIntegrateActivity : FlutterFragmentActivity(), IFlutterChannelListe
         println("onBackPressed()")
 
         // send back press event to flutter
-//        FlutterIntegrateMethodChannel.instance?.send("back")
+        FlutterIntegrateMethodChannel.instance?.send("back")
     }
 
     override fun onRequestPermissionsResult(
