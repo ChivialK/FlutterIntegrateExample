@@ -355,7 +355,7 @@
 		};
 		BE5D43702446B3034A437609 /* [CP-User] Run Flutter Build flutter_integrate_module Script */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			name = "[CP-User] Run Flutter Build flutter_integrate_module Script";
