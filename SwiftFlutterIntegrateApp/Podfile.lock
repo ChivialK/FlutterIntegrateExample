@@ -1,27 +1,4 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
-    - AFNetworking/NSURLSession
-  - Bolts (1.9.1):
-    - Bolts/AppLinks (= 1.9.1)
-    - Bolts/Tasks (= 1.9.1)
-  - Bolts/AppLinks (1.9.1):
-    - Bolts/Tasks
-  - Bolts/Tasks (1.9.1)
-  - FBSDKCoreKit (4.44.1):
-    - Bolts (~> 1.9)
   - Flutter (1.0.0)
   - flutter_integrate_module (0.0.1):
     - Flutter
@@ -29,17 +6,9 @@ PODS:
     - Flutter
 
 DEPENDENCIES:
-  - AFNetworking (~> 3.0)
-  - FBSDKCoreKit (~> 4.9)
   - Flutter (from `../flutter_integrate_module/.ios/Flutter/engine`)
   - flutter_integrate_module (from `../flutter_integrate_module/.ios/Flutter`)
   - FlutterPluginRegistrant (from `../flutter_integrate_module/.ios/Flutter/FlutterPluginRegistrant`)
-
-SPEC REPOS:
-  trunk:
-    - AFNetworking
-    - Bolts
-    - FBSDKCoreKit
 
 EXTERNAL SOURCES:
   Flutter:
@@ -50,13 +19,10 @@ EXTERNAL SOURCES:
     :path: "../flutter_integrate_module/.ios/Flutter/FlutterPluginRegistrant"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
-  FBSDKCoreKit: a823ae35bdb60ebb8d7a7e51abe7c5d87d2bfced
   Flutter: bdfa2e8fe0e2880a2c6a58a0b1a8675c262a07af
   flutter_integrate_module: c099bdcaee449db235a8d2bf25c2a2574e661ca6
   FlutterPluginRegistrant: 2afd5ea46d3a949472c9b7da6462d8fbf7d8b16e
 
-PODFILE CHECKSUM: 15e8d66543a2e053029239e3cefb9b33b06a1fb1
+PODFILE CHECKSUM: a435ad0509603502e0c66da6b831e265c0c9936a
 
-COCOAPODS: 1.10.1
+COCOAPODS: 1.11.2

@@ -5,18 +5,24 @@
 //  Created by Raven_Chiang on 2021/7/20.
 //
 
+import UIKit
 import SwiftUI
+import Flutter
 
 struct ContentView: View {
-    let flutterVc = MyFlutterViewController()
-
+    @State private var isShowingDetailView = false
+    
     var body: some View {
-        Text("Hello, Flutter!")
-            .padding()
-            .onTapGesture {
-                flutterVc.showFlutter()
+        NavigationView {
+            NavigationLink(destination: MyFlutterView(), isActive: $isShowingDetailView) {
+                Text("show flutter")
             }
-
+        }.onAppear {
+            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
+                self.isShowingDetailView = false
+            }
+        }
+        
         Text("Test method")
             .padding()
             .onTapGesture {
@@ -36,4 +42,14 @@ struct ContentView: View {
                 .previewDevice("iPhone 12")
         }
     }
+}
+
+struct MyFlutterView: UIViewControllerRepresentable {
+    func makeUIViewController(context: Context) -> FlutterViewController {
+        FlutterViewController(engine: FlutterEngineDelegate.shared!.engine, nibName: nil, bundle: nil)
+    }
+    
+    func updateUIViewController(_ uiViewController: FlutterViewController, context: Context) {}
+    
+//    typealias UIViewControllerType = MyFlutterViewController
 }

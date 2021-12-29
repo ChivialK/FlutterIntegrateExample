@@ -19,7 +19,9 @@
 		2EEA4D4926A6C8640045BFDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EEA4D4826A6C8640045BFDE /* Preview Assets.xcassets */; };
 		2EEA4D5426A6C8640045BFDE /* SwiftFlutterIntegrateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA4D5326A6C8640045BFDE /* SwiftFlutterIntegrateAppTests.swift */; };
 		2EEA4D5F26A6C8640045BFDE /* SwiftFlutterIntegrateAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EEA4D5E26A6C8640045BFDE /* SwiftFlutterIntegrateAppUITests.swift */; };
-		AA31546524D8B02685102899 /* libPods-SwiftFlutterIntegrateApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E862FC0A34BBF2B1813D400 /* libPods-SwiftFlutterIntegrateApp.a */; };
+		43B5152A4B0E01E453DEE8B7 /* Pods_SwiftFlutterIntegrateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AAA826DC15D073133CD0DCC /* Pods_SwiftFlutterIntegrateApp.framework */; };
+		56E1219EBB3DA26C5368972F /* Pods_SwiftFlutterIntegrateAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5549FD5971900E1E95701B6 /* Pods_SwiftFlutterIntegrateAppTests.framework */; };
+		D512C17A0A053E634DD87E66 /* Pods_SwiftFlutterIntegrateApp_SwiftFlutterIntegrateAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2602BB20FD5C6244EEB9832 /* Pods_SwiftFlutterIntegrateApp_SwiftFlutterIntegrateAppUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +61,15 @@
 		2EEA4D6026A6C8640045BFDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2EEA4D6C26A6D1F00045BFDE /* Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
 		2EEA4D6D26A6D1F00045BFDE /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
+		38A6B0CE4D7F9B85AE4D918F /* Pods-SwiftFlutterIntegrateAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFlutterIntegrateAppTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftFlutterIntegrateAppTests/Pods-SwiftFlutterIntegrateAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4AAA826DC15D073133CD0DCC /* Pods_SwiftFlutterIntegrateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFlutterIntegrateApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A388B886DA2C097B74465DD /* Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8839415DDF39A8B5BC179D53 /* Pods-SwiftFlutterIntegrateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFlutterIntegrateApp.release.xcconfig"; path = "Target Support Files/Pods-SwiftFlutterIntegrateApp/Pods-SwiftFlutterIntegrateApp.release.xcconfig"; sourceTree = "<group>"; };
-		8E862FC0A34BBF2B1813D400 /* libPods-SwiftFlutterIntegrateApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftFlutterIntegrateApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		990A52BC81B79FD5BBD3CD52 /* Pods-SwiftFlutterIntegrateAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFlutterIntegrateAppTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFlutterIntegrateAppTests/Pods-SwiftFlutterIntegrateAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4FD087455875FE572A4DE09 /* Pods-SwiftFlutterIntegrateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFlutterIntegrateApp.debug.xcconfig"; path = "Target Support Files/Pods-SwiftFlutterIntegrateApp/Pods-SwiftFlutterIntegrateApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C774CC4EDBCFF015891BDF08 /* Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5549FD5971900E1E95701B6 /* Pods_SwiftFlutterIntegrateAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFlutterIntegrateAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2602BB20FD5C6244EEB9832 /* Pods_SwiftFlutterIntegrateApp_SwiftFlutterIntegrateAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftFlutterIntegrateApp_SwiftFlutterIntegrateAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA31546524D8B02685102899 /* libPods-SwiftFlutterIntegrateApp.a in Frameworks */,
+				43B5152A4B0E01E453DEE8B7 /* Pods_SwiftFlutterIntegrateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E1219EBB3DA26C5368972F /* Pods_SwiftFlutterIntegrateAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D512C17A0A053E634DD87E66 /* Pods_SwiftFlutterIntegrateApp_SwiftFlutterIntegrateAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +186,9 @@
 		378B557367075B57863C59F0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8E862FC0A34BBF2B1813D400 /* libPods-SwiftFlutterIntegrateApp.a */,
+				4AAA826DC15D073133CD0DCC /* Pods_SwiftFlutterIntegrateApp.framework */,
+				E2602BB20FD5C6244EEB9832 /* Pods_SwiftFlutterIntegrateApp_SwiftFlutterIntegrateAppUITests.framework */,
+				D5549FD5971900E1E95701B6 /* Pods_SwiftFlutterIntegrateAppTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,6 +198,10 @@
 			children = (
 				C4FD087455875FE572A4DE09 /* Pods-SwiftFlutterIntegrateApp.debug.xcconfig */,
 				8839415DDF39A8B5BC179D53 /* Pods-SwiftFlutterIntegrateApp.release.xcconfig */,
+				5A388B886DA2C097B74465DD /* Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.debug.xcconfig */,
+				C774CC4EDBCFF015891BDF08 /* Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.release.xcconfig */,
+				990A52BC81B79FD5BBD3CD52 /* Pods-SwiftFlutterIntegrateAppTests.debug.xcconfig */,
+				38A6B0CE4D7F9B85AE4D918F /* Pods-SwiftFlutterIntegrateAppTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -203,7 +219,6 @@
 				2EEA4D3B26A6C8630045BFDE /* Frameworks */,
 				2EEA4D3C26A6C8630045BFDE /* Resources */,
 				87AB3A1DAC3F4FB86B55F688 /* [CP] Embed Pods Frameworks */,
-				6CC8BB02996CDDD276648C04 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +233,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EEA4D6626A6C8640045BFDE /* Build configuration list for PBXNativeTarget "SwiftFlutterIntegrateAppTests" */;
 			buildPhases = (
+				0FB86DF3553262FEF1D3C3F6 /* [CP] Check Pods Manifest.lock */,
 				2EEA4D4B26A6C8640045BFDE /* Sources */,
 				2EEA4D4C26A6C8640045BFDE /* Frameworks */,
 				2EEA4D4D26A6C8640045BFDE /* Resources */,
@@ -236,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2EEA4D6926A6C8640045BFDE /* Build configuration list for PBXNativeTarget "SwiftFlutterIntegrateAppUITests" */;
 			buildPhases = (
+				2645FE5CB90F31A84E1D5078 /* [CP] Check Pods Manifest.lock */,
 				2EEA4D5626A6C8640045BFDE /* Sources */,
 				2EEA4D5726A6C8640045BFDE /* Frameworks */,
 				2EEA4D5826A6C8640045BFDE /* Resources */,
+				A00E3C0AB65C94B898B0CD0A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -319,21 +337,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6CC8BB02996CDDD276648C04 /* [CP] Copy Pods Resources */ = {
+		0FB86DF3553262FEF1D3C3F6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp/Pods-SwiftFlutterIntegrateApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp/Pods-SwiftFlutterIntegrateApp-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftFlutterIntegrateAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp/Pods-SwiftFlutterIntegrateApp-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2645FE5CB90F31A84E1D5078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		87AB3A1DAC3F4FB86B55F688 /* [CP] Embed Pods Frameworks */ = {
@@ -351,6 +396,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp/Pods-SwiftFlutterIntegrateApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A00E3C0AB65C94B898B0CD0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests/Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BE5D43702446B3034A437609 /* [CP-User] Run Flutter Build flutter_integrate_module Script */ = {
@@ -602,6 +664,7 @@
 		};
 		2EEA4D6726A6C8640045BFDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990A52BC81B79FD5BBD3CD52 /* Pods-SwiftFlutterIntegrateAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -623,6 +686,7 @@
 		};
 		2EEA4D6826A6C8640045BFDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38A6B0CE4D7F9B85AE4D918F /* Pods-SwiftFlutterIntegrateAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -644,6 +708,7 @@
 		};
 		2EEA4D6A26A6C8640045BFDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A388B886DA2C097B74465DD /* Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -663,6 +728,7 @@
 		};
 		2EEA4D6B26A6C8640045BFDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C774CC4EDBCFF015891BDF08 /* Pods-SwiftFlutterIntegrateApp-SwiftFlutterIntegrateAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
