@@ -45,3 +45,25 @@ static start({
 /// 建立持續型串流資料的接收通道給Flutter UI用
 static Stream startStream()
 ```
+
+---
+## XCode編譯問題
+
+* ios模擬器問題：
+ 1. Project → flutter_module
+ 2. Run: `flutter clean`  `flutter pub get`
+ 3. Run flutter module
+ 4. Check .ios podfile content
+ 5. Xcode: **Product** > **Clean Build Folder**
+ 6. Run: `pod install`
+
+* Flutter插件問題：
+ 1. Copy the contents of your Podfile somewhere safe
+ 2. Run: `pod cache clean --all`
+ 3. Remove "Podfile"-file from the dir.
+ 4. Xcode: **Product** > **Clean Build Folder**
+ 5. Run: `pod init`. A new "Podfile"-file is added to the dir
+ 6. Start adding parts of your original Podfile to this file
+ 7. Run: `pod install`
+ 8. Try to build your project again
+
